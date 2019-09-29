@@ -1,0 +1,47 @@
+body {
+  background: white;
+  margin: 0;
+}
+
+.main-container {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  display: flex;
+}
+
+.column {
+  height: 500px;
+  width: 33%;
+}
+
+.menu li{
+  font-size: 19px;
+  list-style: none;
+  padding: 10px;
+}
+
+/* TODO: REVISAR DEPOIS */
+.menu li .menu-icon {
+  position: relative;
+  top: 7px;
+  margin-right: 16px;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+
+.btn {
+  background: rgb(29, 161, 242);
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 15px 70px;
+  color: white;
+}
+
+.btn.btn--round {
+  border-radius: 25px;
+}
