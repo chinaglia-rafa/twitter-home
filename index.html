@@ -4,6 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="light.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
   <title>Twitter</title>
 </head>
 <body>
@@ -36,7 +37,7 @@
           Listas
         </li>
         <li>
-          <img src="http://placehold.it/26x26" alt="" width="26" class="menu-icon round">
+          <img src="img/placeholder.jpeg" alt="" width="26" class="menu-icon round">
           Perfil
         </li>
         <li>
@@ -48,8 +49,72 @@
         </li>
       </ul>
     </nav>
-    <section class="column"></section>
-    <section class="column"></section>
+    <section class="column column--middle">
+      <div class="header">
+        Página Inicial
+        <img src="img/sparks.svg" alt="" width="26">
+      </div>
+      <div class="composer">
+        <img src="img/placeholder.jpeg" alt="" class="round profile-pic" width="49" height="49">
+        <input type="text" class="compose-tweet" placeholder="O que está acontecendo?">
+        <div class="buttons">
+          <button class="btn btn--round btn--small">Tweetar</button>
+          <div class="add round">
+            <img src="img/plus.svg" alt="" width="26" height="26">
+          </div>
+          <div class="pipe"></div>
+          <div class="round tiny-circle"></div>
+          <div class="composer__options">
+            <img src="img/message.svg" alt="" width="26" class="menu-icon">
+            <img src="img/message.svg" alt="" width="26" class="menu-icon">
+            <img src="img/message.svg" alt="" width="26" class="menu-icon">
+            <img src="img/message.svg" alt="" width="26" class="menu-icon">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="column column--padded">
+      <div class="form-group">
+        <img src="img/search.svg" alt="" width="17" height="17">
+        <input type="text" class="search-box" placeholder="Buscar no Twitter">
+      </div>
+
+      <ul class="grey-list">
+        <li class="grey-list__title">
+          Tendências do Brasil
+          <img src="img/gear.svg" alt="" width="26" class="grey-list__title__icon">
+        </li>
+        <li class="grey-list__item">
+          <div class="grey-list__item__title">
+            #GarrukIsBACK
+          </div>
+          <div class="grey-list__item__description">
+            Garruk está de volta comendo todos os biscoitinhos!
+          </div>
+          <div class="grey-list__item__subtag">
+            <img src="img/leave.svg" alt="" width="12" height="12" style="position: relative; top: 2px;"> Visitar Trono de Eldraine
+          </div>
+        </li>
+        <li class="grey-list__item">
+          <div class="grey-list__item__title">#Serra</div>
+        </li>
+        <li class="grey-list__item">
+          <div class="grey-list__item__title">#Mishra</div>
+        </li>
+        <li class="grey-list__item">
+          <div class="grey-list__item__title">#VendillionClique</div>
+        </li>
+        <li class="grey-list__item">
+          <div class="grey-list__item__title">#Embercleaver</div>
+        </li>
+        <li class="grey-list__item">
+          <div class="grey-list__item__title">#UrzaIsEvil</div>
+        </li>
+        <li class="grey-list__item">
+          <a href="#" class="more">Mostrar mais</a>
+        </li>
+      </ul>
+    </section>
   </div>
 </body>
 </html>

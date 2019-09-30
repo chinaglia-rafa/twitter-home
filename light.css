@@ -1,10 +1,11 @@
 body {
   background: white;
   margin: 0;
+  font-family: system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
 }
 
 .main-container {
-  width: 90%;
+  width: 93%;
   display: block;
   margin: 0 auto;
   display: flex;
@@ -12,7 +13,29 @@ body {
 
 .column {
   height: 500px;
-  width: 33%;
+  width: 28%;
+}
+
+.column.column--middle {
+  border: 1px solid #e6ecf0;
+  border-top: none;
+  border-bottom: none;
+  width: 44%;
+}
+
+.column.column--padded {
+  padding: 8px 0px 0px 25px;
+  box-sizing: border-box;
+}
+
+.column.column--middle .header {
+  font-size: 19px;
+  padding: 16px;
+  border-bottom: 1px solid #e6ecf0;
+}
+
+.column.column--middle .header img{
+  float: right;
 }
 
 .menu li{
@@ -32,7 +55,6 @@ body {
   border-radius: 50%;
 }
 
-
 .btn {
   background: rgb(29, 161, 242);
   border: none;
@@ -44,4 +66,151 @@ body {
 
 .btn.btn--round {
   border-radius: 25px;
+}
+
+.btn.btn--small {
+  padding: 11px 21px;
+}
+
+.composer {
+  padding: 12px;
+  height: 100px;
+  border-bottom: 10px solid #e6ecf0;
+}
+
+.composer .profile-pic {
+  float: left;
+  margin-right: 16px;
+}
+
+.compose-tweet {
+  border: none;
+  background: transparent;
+  font-size: 19px;
+  padding: 13px 0;
+}
+
+.buttons {
+  text-align: right;
+}
+
+.buttons .add,
+.buttons .btn,
+.buttons .pipe,
+.tiny-circle,
+.composer .composer__options {
+  float: right;
+  margin: 6px;
+}
+
+.composer .add {
+  border: 1px solid rgb(29, 161, 242);
+  padding: 3px;
+  position: relative;
+  top: 2px;
+  text-align: center;
+}
+
+.composer .add img {
+  position: relative;
+  left: 1px;
+}
+
+.pipe {
+  width: 1px;
+  height: 30px;
+  background: rgb(170, 184, 194);
+  display: inline-block;
+}
+
+.buttons .pipe {
+  position: relative;
+  top: 4px;
+}
+
+.tiny-circle {
+  border: 2px solid rgb(170, 184, 194);
+  width: 16px;
+  height: 16px;
+  position: relative;
+  top: 10px;
+}
+
+.composer .composer__options {
+  float: left;
+  position: relative;
+  top: 8px;
+  margin-left: 0;
+}
+
+.composer .composer__options img {
+  margin-right: 6px;
+}
+
+.form-group {
+  position: relative;
+}
+
+.form-group img {
+  position: absolute;
+  top: 9px;
+  left: 13px;
+}
+
+.search-box {
+  border-radius: 30px;
+  background: #e6ecf0;
+  border: none;
+  font-size: 16px;
+  padding: 10px 10px 10px 45px;
+  width: 100%;
+}
+
+.grey-list {
+  width: 100%;
+  background: #e6ecf0;
+  border-radius: 10px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.grey-list .grey-list__item,
+.grey-list .grey-list__title {
+  list-style: none;
+  padding: 16px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.grey-list .grey-list__item .grey-list__item__title {
+  font-weight: bold;
+}
+
+.grey-list .grey-list__item .grey-list__item__description {
+  margin: 5px 0;
+  color: rgb(101, 119, 134);
+}
+
+.grey-list .grey-list__item .grey-list__item__subtag {
+  margin: 12px 0 0 0;
+  font-size: 14px;
+  color: rgb(101, 119, 134);
+}
+
+.grey-list .grey-list__item a {
+  color: rgb(29, 161, 242);
+  text-decoration: none;
+}
+
+.grey-list .grey-list__item:last-child {
+  border: none;
+  font-size: 18px;
+}
+
+.grey-list .grey-list__title {
+  list-style: none;
+  font-size: 19px;
+}
+
+.grey-list .grey-list__title .grey-list__title__icon {
+  float: right;
 }
