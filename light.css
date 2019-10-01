@@ -38,6 +38,10 @@ body {
   float: right;
 }
 
+#logo {
+  margin-left: 40px;
+}
+
 .menu li{
   font-size: 19px;
   list-style: none;
@@ -49,6 +53,10 @@ body {
   position: relative;
   top: 7px;
   margin-right: 16px;
+}
+
+.menu li.selected {
+  color: rgb(29, 161, 242);
 }
 
 .round {
@@ -71,6 +79,14 @@ body {
 .btn.btn--small {
   padding: 11px 21px;
 }
+
+.btn.btn--hollow {
+  background: transparent;
+  border: 2px solid rgb(29, 161, 242);
+  color: rgb(29, 161, 242);
+}
+
+
 
 .composer {
   padding: 12px;
