@@ -86,7 +86,6 @@ body {
   color: rgb(29, 161, 242);
 }
 
-
 .composer {
   padding: 12px;
   height: 100px;
@@ -162,6 +161,16 @@ body {
   margin-right: 6px;
 }
 
+.form-group {
+  position: relative;
+}
+
+.form-group img {
+  position: absolute;
+  top: 9px;
+  left: 13px;
+}
+
 .search-box {
   border-radius: 30px;
   background: #e6ecf0;
@@ -208,7 +217,7 @@ body {
 
 .grey-list .grey-list__item:last-child {
   border: none;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .grey-list .grey-list__title {
@@ -218,4 +227,100 @@ body {
 
 .grey-list .grey-list__title .grey-list__title__icon {
   float: right;
+}
+
+.grey-list .grey-list__avatar {
+  float: left;
+  margin-right: 10px;
+}
+
+.grey-list .grey-list__username {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.grey-list .grey-list__handle {
+  color: rgb(101, 119, 134);
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.grey-list .grey-list__follow-button {
+  float: right;
+  padding: 5px 14px;
+}
+
+.grey-list .grey-list__item.grey-list__item--short {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.tweet {
+  padding: 16px;
+  border-bottom: 1px solid #e6ecf0;
+}
+
+.tweet .tweet__avatar {
+  float: left;
+  margin-right: 12px;
+}
+
+.tweet .tweet__username {
+  display: inline-block;
+  font-weight: bold;
+  margin-right: 3px;
+}
+
+.tweet .tweet__handle,
+.tweet .tweet__time {
+  display: inline-block;
+  color: rgb(101, 119, 134);
+}
+
+.tweet .tweet__dot {
+  position: relative;
+  display: inline-block;
+  color: rgb(101, 119, 134);
+  top: -4px;
+}
+
+.tweet .tweet__more {
+  float: right;
+  padding: 2px;
+}
+
+.tweet .tweet__content {
+  margin-left: 61px; /* HAX */
+}
+
+.tweet .tweet__content p {
+  margin: 10px 0 0 0;
+}
+
+.tweet .hashtag {
+  color: rgb(29, 161, 242);
+}
+
+.tweet .tweet__buttons {
+  margin-top: 16px;
+  padding: 0 58px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tweet .tweet__buttons .tweet__buttons__button {
+  display: inline-block;
+}
+
+.tweet .tweet__buttons .tweet__buttons__numbered-label span {
+  display: inline-block;
+  position: relative;
+  top: -6px;
+  color: rgb(101, 119, 134);
+}
+
+.tweet .tweet__content .tweet__content__image {
+  width: 97%;
+  border-radius: 10px;
+  margin-top: 16px;
 }
