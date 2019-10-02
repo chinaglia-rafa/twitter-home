@@ -87,7 +87,6 @@ body {
 }
 
 
-
 .composer {
   padding: 12px;
   height: 100px;
@@ -161,16 +160,6 @@ body {
 
 .composer .composer__options img {
   margin-right: 6px;
-}
-
-.form-group {
-  position: relative;
-}
-
-.form-group img {
-  position: absolute;
-  top: 9px;
-  left: 13px;
 }
 
 .search-box {
